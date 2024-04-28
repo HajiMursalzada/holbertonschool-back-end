@@ -37,4 +37,3 @@ if __name__ == "__main__":
                 }
             tasks_by_user[user_id].append(task_data)
         json.dump(tasks_by_user, file)
-

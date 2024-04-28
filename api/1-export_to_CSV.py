@@ -30,4 +30,3 @@ if __name__ == "__main__":
     with open(filename, 'w', newline="") as file:
         csvwriter = csv.writer(file, quoting=csv.QUOTE_ALL)
         csvwriter.writerows(csvFormat)
-

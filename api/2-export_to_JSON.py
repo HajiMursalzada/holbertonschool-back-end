@@ -30,4 +30,3 @@ if __name__ == "__main__":
     with open(filename, 'w', encoding="utf-8") as file:
         serialized = {user['id']: tasksArr}
         json.dump(serialized, file)
-

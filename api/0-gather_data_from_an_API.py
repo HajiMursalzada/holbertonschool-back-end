@@ -39,4 +39,3 @@ def gather_user_information():
 if __name__ == "__main__":
     if len(argv) == 2:
         gather_user_information()
-
